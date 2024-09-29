@@ -196,7 +196,7 @@ def bill_button_operation():
         bill.geometry("670x500+300+100")
         bill.wm_iconbitmap("Coffee.ico")
         bill_text_area = Text(bill, font=("arial", 12))
-        st = "\t\t\t\tShree Sai Hotel\n\t\t\tNear Highway, Mumbai-400152\n"
+        st = "\t\t\t\tHotel Bill Project\n\t\t\tNear Highway, yavatmal-44001\n"
         st += "\t\t\tGST.NO:- ABCDADASEBSXX\n"
         st += "-"*61 + "BILL" + "-"*61 + "\nDate:- "
 
@@ -261,7 +261,7 @@ def close_window():
 root = Tk()
 w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.geometry("%dx%d+0+0" % (w, h))
-root.title("Welcome to Shree Sai Hotel")
+root.title("Welcome to Hotel Billing Project")
 root.wm_iconbitmap("Burger.ico")
 #root.attributes('-fullscreen', True)
 #root.resizable(1920, 1080)
@@ -274,7 +274,7 @@ style_button.configure("TButton",font = ("arial",10,"bold"),
 title_frame = Frame(root, bd=8, bg="teal", relief=GROOVE)
 title_frame.pack(side=TOP, fill="x")
 
-title_label = Label(title_frame, text=" 🙏 🙏       Shree Sai Hotel       🙏 🙏", 
+title_label = Label(title_frame, text=" 🙏 🙏        Hotel       🙏 🙏", 
                     font=("Comic sans ms", 30, "bold"),bg = "teal", fg="white", pady=5)
 title_label.pack()
 
